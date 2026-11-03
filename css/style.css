@@ -153,3 +153,102 @@ body {
   color: var(--color-muted);
   font-size: 1rem;
 }
+
+.testimonials-section {
+  padding: 3rem 1rem;
+  background-color: var(--color-card);
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.testimonial-card {
+  background-color: var(--color-background);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card blockquote {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial-card h3 {
+  font-size: 1.1rem;
+  color: var(--color-text);
+}
+
+.testimonial-card p {
+  color: var(--color-muted);
+}
+
+.contact-section {
+  padding: 3rem 1rem;
+  background-color: var(--color-section);
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: var(--color-card);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 3px 13px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form div {
+  margin-bottom: 1rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--color-muted);
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: var(--color-secondary);
+}
+
+.footer {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 0.9rem;
+  color: var(--color-light);
+}
